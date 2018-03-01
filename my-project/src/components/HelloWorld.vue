@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    <img src="../assets/logo.png">
+    <router-link :to="{ name: 'index', params: {} }"><el-button>去首页</el-button></router-link>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
